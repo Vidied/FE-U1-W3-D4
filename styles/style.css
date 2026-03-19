@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Orbitron:wght@400..900&display=swap");
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: #0b0e14;
+  color: #b0fbff;
+  text-align: center;
+  padding: 2% 5%;
+}
+
+h1 {
+  color: #ff0055;
+}
+
+button {
+  color: #ff0055;
+  background-color: #0b0e14;
+  border: 1px solid #00f5ff;
+  border-radius: 5px;
+  width: 10em;
+  height: 2em;
+  margin: 3em;
+}
+
+button:hover {
+  background-color: #7000ff;
+  cursor: pointer;
+}
+
+#tabellaHTML {
+  width: 80%;
+  margin: 1em auto;
+  text-align: start;
+}
+
+#tabellaHTML div {
+  font-weight: bold;
+  font-size: larger;
+  display: inline-block;
+  width: 10%;
+  height: 3em;
+  text-align: center;
+  line-height: 3em;
+  border: 1px solid #00f5ff;
+  vertical-align: middle;
+}
+
+#tabellaPlayer {
+  width: 49%;
+  text-align: center;
+  box-sizing: border-box;
+}
+#tabellaPlayer > div {
+  display: inline-block;
+  width: 100%;
+}
+
+#tabellaPlayer div div {
+  border: 1px solid #00f5ff;
+  width: 10%;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#nuovaTabellaPlayerHTML {
+  box-sizing: border-box;
+}
+
+.singolaCartella {
+  margin: 2em 0;
+}
+
+.evidenziato {
+  background-color: #00f7ff63;
+  color: #ff0055;
+}
