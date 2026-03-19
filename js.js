@@ -36,10 +36,11 @@ const estrazioneNumero = function () {
   if (cellaEstratta) {
     cellaEstratta.classList.add("evidenziato");
   }
-  const cellaPlayerEstratta = arrayTabellaPlayer[numeroEstratto - 1];
-  if (cellaPlayerEstratta) {
-    cellaPlayerEstratta.classList.add("evidenziato");
-  }
+  arrayTabellaPlayer.forEach((cella) => {
+    if (parseInt(cella.innerText) === numeroEstratto) {
+      cella.classList.add("evidenziato");
+    }
+  });
 };
 
 const resetEstrazioni = function () {
