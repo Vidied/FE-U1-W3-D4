@@ -20,12 +20,31 @@ input {
   border-radius: 5px;
   width: 10em;
   height: 2em;
-  margin: 3em;
+  margin: 1.5em 3em 3em 3em;
 }
 
 button:hover {
   background-color: #7000ff;
   cursor: pointer;
+}
+
+input::placeholder {
+  color: #ff0055;
+  text-align: center;
+}
+
+#cartelle {
+  text-align: center;
+}
+
+#cartelle input {
+  margin: 0 1.5em 1em 0;
+  width: 13em;
+}
+
+#cartelle button {
+  margin: 0 1.5em 1em 0;
+  width: 13em;
 }
 
 #tabellaHTML {
