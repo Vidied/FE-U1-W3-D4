@@ -12,7 +12,8 @@ h1 {
   color: #ff0055;
 }
 
-button {
+button,
+input {
   color: #ff0055;
   background-color: #0b0e14;
   border: 1px solid #00f5ff;

@@ -100,6 +100,14 @@ const tabellaPlayerExtra = function () {
   }
 };
 
+const cartelleAutomatiche = function (e) {
+  e.preventDefault();
+  const volte = document.getElementById("numerocartelle").value;
+  for (let i = 0; i < volte; i++) {
+    tabellaPlayerExtra();
+  }
+};
+
 const pesca = document.getElementById("pescaHTML");
 pesca.addEventListener("click", estrazioneNumero);
 
@@ -108,5 +116,11 @@ reset.addEventListener("click", resetEstrazioni);
 
 const nuovaTabellaPlayer = document.getElementById("nuovaTabellaPlayerHTML");
 nuovaTabellaPlayer.addEventListener("click", tabellaPlayerExtra);
+/*
+const nuovaTabellaPlayerNumero = document.getElementById("number");
+nuovaTabellaPlayerNumero.addEventListener("input", cartelleAutomatiche);
+*/
 
+const prova = document.getElementById("cartelle");
+prova.addEventListener("submit", cartelleAutomatiche);
 c(numeriUsciti);
