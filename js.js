@@ -63,9 +63,13 @@ const tabellaPlayer = function () {
   tabellaPlayerContainer.innerHTML = "";
   arrayTabellaPlayer = [];
 
+  const singolaCartella = document.createElement("div");
+  singolaCartella.classList.add("singolaCartella");
+  tabellaPlayerContainer.appendChild(singolaCartella);
+
   for (let i = 0; i < 3; i++) {
     const riga = document.createElement("div");
-    tabellaPlayerContainer.appendChild(riga);
+    singolaCartella.appendChild(riga);
     for (let y = 0; y < 8; y++) {
       const cellaNumeroTabellaPlayer = document.createElement("div");
       cellaNumeroTabellaPlayer.innerText = Math.ceil(Math.random() * 76);
@@ -75,10 +79,12 @@ const tabellaPlayer = function () {
   }
 };
 
+tabellaPlayer();
+
 const tabellaPlayerExtra = function () {
   const tabellaPlayerContainer = document.getElementById("tabellaPlayer");
 
-  const singolaCartella = document.createElement("dic");
+  const singolaCartella = document.createElement("div");
   singolaCartella.classList.add("singolaCartella");
   tabellaPlayerContainer.appendChild(singolaCartella);
 

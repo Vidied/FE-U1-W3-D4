@@ -50,28 +50,22 @@ button:hover {
   text-align: center;
   box-sizing: border-box;
 }
-#tabellaPlayer > div {
+
+.singolaCartella {
   display: inline-block;
-  width: 100%;
+  width: 90%;
+  margin: 1em 0;
+  text-align: center;
 }
 
-#tabellaPlayer div div {
+.singolaCartella div div {
+  display: inline-block;
+  width: 12.5%;
   border: 1px solid #00f5ff;
-  width: 10%;
+  box-sizing: border-box;
   height: 2em;
   line-height: 2em;
   vertical-align: middle;
-  text-align: center;
-  box-sizing: border-box;
-  display: inline-block;
-}
-
-#nuovaTabellaPlayerHTML {
-  box-sizing: border-box;
-}
-
-.singolaCartella {
-  margin: 2em 0;
 }
 
 .evidenziato {
