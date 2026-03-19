@@ -46,15 +46,15 @@ button:hover {
 }
 
 #tabellaPlayer {
-  width: 49%;
+  width: 100%;
   text-align: center;
   box-sizing: border-box;
 }
 
 .singolaCartella {
   display: inline-block;
-  width: 90%;
-  margin: 1em 0;
+  width: 40%;
+  margin: 1em;
   text-align: center;
 }
 
